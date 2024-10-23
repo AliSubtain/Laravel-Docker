@@ -51,7 +51,7 @@ The Dockerized setup ensures that the entire application and its dependencies ar
 Once the Docker containers are running, you can access:
 
 - **Laravel Application**: `http://localhost:8000`
-- **phpMyAdmin**: `http://localhost:8080` (login with the database credentials specified in `.env`)
+- **phpMyAdmin**: `http://localhost:8081` (login with the database credentials specified in `.env`)
 
 ## About This Project
 
