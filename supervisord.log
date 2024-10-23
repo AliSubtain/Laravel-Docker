@@ -1,0 +1,147 @@
+2024-10-22 05:33:33,070 INFO supervisord started with pid 1
+2024-10-22 05:33:34,073 INFO spawned: 'inotify' with pid 7
+2024-10-22 05:33:34,076 INFO spawned: 'php-fpm' with pid 8
+2024-10-22 05:33:35,127 INFO success: inotify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-22 05:33:35,127 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-22 05:35:58,281 WARN received SIGQUIT indicating exit request
+2024-10-22 05:35:58,282 INFO waiting for inotify, php-fpm to die
+2024-10-22 05:35:59,295 INFO stopped: php-fpm (exit status 0)
+2024-10-22 05:35:59,296 WARN stopped: inotify (terminated by SIGTERM)
+2024-10-22 05:39:17,451 INFO supervisord started with pid 1
+2024-10-22 05:39:18,454 INFO spawned: 'php-fpm' with pid 7
+2024-10-22 05:39:19,511 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-22 05:40:18,571 WARN received SIGQUIT indicating exit request
+2024-10-22 05:40:18,571 INFO waiting for php-fpm to die
+2024-10-22 05:40:18,577 INFO stopped: php-fpm (exit status 0)
+2024-10-22 05:40:36,474 INFO supervisord started with pid 1
+2024-10-22 05:40:37,476 INFO spawned: 'php-fpm' with pid 6
+2024-10-22 05:40:38,529 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-22 05:44:11,748 WARN received SIGQUIT indicating exit request
+2024-10-22 05:44:11,749 INFO waiting for php-fpm to die
+2024-10-22 05:44:11,753 INFO stopped: php-fpm (exit status 0)
+2024-10-22 06:00:19,681 INFO supervisord started with pid 1
+2024-10-22 06:00:20,160 INFO supervisord started with pid 1
+2024-10-22 06:00:20,682 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:21,162 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:21,683 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:22,162 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:23,684 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:24,166 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:26,688 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:26,688 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:00:27,170 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:00:27,170 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:04:49,447 WARN received SIGQUIT indicating exit request
+2024-10-22 06:04:49,958 WARN received SIGQUIT indicating exit request
+2024-10-22 06:06:12,450 INFO supervisord started with pid 1
+2024-10-22 06:06:12,653 INFO supervisord started with pid 1
+2024-10-22 06:06:13,451 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:13,654 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:14,453 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:14,656 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:16,455 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:16,659 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:19,459 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:19,459 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:06:19,663 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:06:19,663 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:08:33,596 WARN received SIGQUIT indicating exit request
+2024-10-22 06:08:33,804 WARN received SIGQUIT indicating exit request
+2024-10-22 06:10:08,066 INFO supervisord started with pid 1
+2024-10-22 06:10:08,297 INFO supervisord started with pid 1
+2024-10-22 06:10:09,067 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:09,299 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:10,069 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:10,300 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:12,072 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:12,309 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:15,076 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:15,076 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:10:15,312 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:10:15,312 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:11:16,138 WARN received SIGQUIT indicating exit request
+2024-10-22 06:11:16,374 WARN received SIGQUIT indicating exit request
+2024-10-22 06:16:57,854 INFO supervisord started with pid 1
+2024-10-22 06:16:57,912 INFO supervisord started with pid 1
+2024-10-22 06:16:58,855 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:16:58,914 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:16:59,856 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:16:59,915 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:17:01,859 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:17:01,918 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:17:04,863 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:17:04,863 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:17:04,922 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:17:04,923 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:23:16,249 WARN received SIGQUIT indicating exit request
+2024-10-22 06:23:16,312 WARN received SIGQUIT indicating exit request
+2024-10-22 06:27:20,207 INFO supervisord started with pid 1
+2024-10-22 06:27:20,260 INFO supervisord started with pid 1
+2024-10-22 06:27:21,208 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:21,262 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:22,208 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:22,264 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:24,211 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:24,266 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:27,215 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:27,215 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:27:27,270 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:27:27,270 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:29:26,344 WARN received SIGQUIT indicating exit request
+2024-10-22 06:29:26,390 WARN received SIGQUIT indicating exit request
+2024-10-22 06:31:03,769 INFO supervisord started with pid 1
+2024-10-22 06:31:03,841 INFO supervisord started with pid 1
+2024-10-22 06:31:04,771 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:04,842 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:05,772 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:05,848 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:07,774 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:07,851 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:10,779 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:10,780 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:31:10,856 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:31:10,856 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:35:19,035 WARN received SIGQUIT indicating exit request
+2024-10-22 06:35:19,122 WARN received SIGQUIT indicating exit request
+2024-10-22 06:36:47,693 INFO supervisord started with pid 1
+2024-10-22 06:36:48,089 INFO supervisord started with pid 1
+2024-10-22 06:36:48,694 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:49,089 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:49,696 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:50,090 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:51,699 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:52,093 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:54,702 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:54,702 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:36:55,096 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:36:55,097 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:39:36,875 WARN received SIGQUIT indicating exit request
+2024-10-22 06:39:37,263 WARN received SIGQUIT indicating exit request
+2024-10-22 06:41:30,154 INFO supervisord started with pid 1
+2024-10-22 06:41:30,296 INFO supervisord started with pid 1
+2024-10-22 06:41:31,157 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:31,297 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:32,159 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:32,298 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:34,162 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:34,300 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:37,166 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:37,166 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:41:37,304 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 06:41:37,304 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 06:42:20,210 WARN received SIGQUIT indicating exit request
+2024-10-22 06:42:20,347 WARN received SIGQUIT indicating exit request
+2024-10-22 13:10:31,530 INFO supervisord started with pid 1
+2024-10-22 13:10:31,550 INFO supervisord started with pid 1
+2024-10-22 13:10:32,533 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:32,553 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:33,534 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:33,554 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:35,537 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:35,556 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:38,540 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:38,541 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 13:10:38,559 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-10-22 13:10:38,560 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-10-22 13:12:48,677 WARN received SIGQUIT indicating exit request
+2024-10-22 13:12:48,699 WARN received SIGQUIT indicating exit request

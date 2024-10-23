@@ -1,0 +1,62 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: test
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: example
+    container_name: example-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+    networks:
+      - example
+
+  db:
+    image: mysql:8.0
+    container_name: example-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: phpmyadmin
+      MYSQL_ROOT_PASSWORD: 1122
+      MYSQL_PASSWORD: 1122
+      MYSQL_USER: phpmyadmin
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker/mysql:/docker-entrypoint-initdb.d
+    networks:
+      - example
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: example-phpmyadmin
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: 1122
+    ports:
+      - "8081:80"
+    depends_on:
+      - db
+    networks:
+      - example   
+
+  nginx:
+    image: nginx:alpine
+    container_name: example-nginx
+    restart: unless-stopped
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx:/etc/nginx/conf.d/
+    networks:
+      - example
+
+networks:
+  example:
+    driver: bridge

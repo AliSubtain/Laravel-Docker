@@ -1,0 +1,1 @@
+SELECT 'Ultahost Setting up Laravel in Docker' AS message;

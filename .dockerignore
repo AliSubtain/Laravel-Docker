@@ -1,0 +1,6 @@
+vendor
+data
+storage
+node_modules
+.env
+*.log
