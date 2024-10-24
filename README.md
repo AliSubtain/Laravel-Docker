@@ -61,7 +61,7 @@ This project is a Laravel application running in a Dockerized environment. The s
 - **MySQL Database**: A containerized MySQL database for storing application data.
 - **phpMyAdmin**: A containerized web-based interface for managing the MySQL database.
 
-<img src="{{ asset('images/aboutProject.png') }}" width="400" alt="About Project">
+<img src="https://github.com/AliSubtain/Laravel-Docker/raw/dev/public/images/aboutProject.png" width="400" alt="About Project" style="max-width: 100%;">
 
 By containerizing the services, this project makes it easy to manage dependencies, isolate environments, and streamline both development and deployment processes.
 
