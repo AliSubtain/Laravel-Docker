@@ -65,6 +65,10 @@ This project is a Laravel application running in a Dockerized environment. The s
 
 By containerizing the services, this project makes it easy to manage dependencies, isolate environments, and streamline both development and deployment processes.
 
+## Directory Structure
+
+├── app ├── artisan ├── bootstrap ├── composer.json ├── composer.lock ├── config ├── data ├── database ├── docker ├── docker-compose.yml ├── Dockerfile ├── index.html ├── package.json ├── phpunit.xml ├── postcss.config.js ├── public ├── README.md ├── resources ├── routes ├── storage ├── supervisord.log ├── tailwind.config.js ├── tests ├── vendor └── vite.config.js
+
 ### Project Features
 
 - **Consistent Environment**: The same environment for development, testing, and production using Docker containers.
