@@ -67,7 +67,33 @@ By containerizing the services, this project makes it easy to manage dependencie
 
 ## Directory Structure
 
-├── app ├── artisan ├── bootstrap ├── composer.json ├── composer.lock ├── config ├── data ├── database ├── docker ├── docker-compose.yml ├── Dockerfile ├── index.html ├── package.json ├── phpunit.xml ├── postcss.config.js ├── public ├── README.md ├── resources ├── routes ├── storage ├── supervisord.log ├── tailwind.config.js ├── tests ├── vendor └── vite.config.js
+```
+├── app/                   # Application source code (Models, Controllers, etc.)
+├── artisan                # Artisan command-line utility
+├── bootstrap/             # Files for bootstrapping the framework
+├── composer.json          # Composer dependencies configuration file
+├── composer.lock          # Composer lock file (freezes the dependency versions)
+├── config/                # Application configuration files
+├── data/                  # Application-specific data (usage may vary)
+├── database/              # Database migrations, seeders, and factories
+├── docker/                # Docker-related configuration files
+├── docker-compose.yml     # Docker Compose file to orchestrate multi-container setups
+├── Dockerfile             # Docker configuration for the app environment
+├── index.html             # Default HTML file for public access
+├── package.json           # Node.js dependencies and scripts configuration
+├── phpunit.xml            # PHPUnit configuration for testing
+├── postcss.config.js      # PostCSS configuration for processing CSS
+├── public/                # Publicly accessible files (assets, index.php, etc.)
+├── README.md              # Project documentation file
+├── resources/             # Views, raw assets (SASS, JS, images), and language files
+├── routes/                # Web and API route definitions
+├── storage/               # Logs, compiled templates, and other storage files
+├── supervisord.log        # Log file for Supervisor (process manager)
+├── tailwind.config.js     # Tailwind CSS configuration
+├── tests/                 # Unit and feature test cases
+├── vendor/                # Composer dependencies (auto-generated)
+└── vite.config.js         # Vite configuration file for bundling assets
+```
 
 ### Project Features
 
